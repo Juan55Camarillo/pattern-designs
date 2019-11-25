@@ -1,0 +1,13 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'Map', 'x':51, 'y':92, 'width':106, 'height':122, 'attrs': '_generateMap|generateMap', 'meths': '__init__|RandomSeed'}
+{'type':'umlshape', 'id':'Generator', 'x':310, 'y':137, 'width':100, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'WaterLand', 'x':391, 'y':252, 'width':100, 'height':64, 'attrs': '', 'meths': 'randomizer'}
+{'type':'umlshape', 'id':'EarthLand', 'x':210, 'y':258, 'width':100, 'height':64, 'attrs': '', 'meths': 'randomizer'}
+{'type':'umlshape', 'id':'main', 'x':70, 'y':380, 'width':51, 'height':80, 'attrs': 'map1|map2', 'meths': ''}
+{'type':'umlshape', 'id':'ABC', 'x':338, 'y':33, 'width':40, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'edge', 'id':'Generator_to_ABC', 'source':'Generator', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'EarthLand_to_Generator', 'source':'EarthLand', 'target':'Generator', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'WaterLand_to_Generator', 'source':'WaterLand', 'target':'Generator', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Generator_to_Map', 'source':'Generator', 'target':'Map', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'main_to_Map', 'source':'main', 'target':'Map', 'uml_edge_type': 'generalisation'}

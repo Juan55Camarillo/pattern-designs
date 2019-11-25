@@ -1,0 +1,17 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'Gender', 'x':423, 'y':174, 'width':70, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'shape_body', 'x':111, 'y':139, 'width':110, 'height':90, 'attrs': 'gender', 'meths': '__init__'}
+{'type':'umlshape', 'id':'Warrior', 'x':57, 'y':303, 'width':82, 'height':80, 'attrs': '', 'meths': '__init__|body_size'}
+{'type':'umlshape', 'id':'Assasin', 'x':205, 'y':301, 'width':82, 'height':80, 'attrs': '', 'meths': '__init__|body_size'}
+{'type':'umlshape', 'id':'Man', 'x':467, 'y':291, 'width':114, 'height':64, 'attrs': '', 'meths': 'select_gender'}
+{'type':'umlshape', 'id':'Woman', 'x':316, 'y':296, 'width':114, 'height':64, 'attrs': '', 'meths': 'select_gender'}
+{'type':'umlshape', 'id':'main', 'x':480, 'y':38, 'width':90, 'height':80, 'attrs': 'character1|character2', 'meths': ''}
+{'type':'umlshape', 'id':'ABC', 'x':311, 'y':52, 'width':40, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'edge', 'id':'Man_to_Gender', 'source':'Man', 'target':'Gender', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'shape_body_to_ABC', 'source':'shape_body', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Gender_to_ABC', 'source':'Gender', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Assasin_to_shape_body', 'source':'Assasin', 'target':'shape_body', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Warrior_to_shape_body', 'source':'Warrior', 'target':'shape_body', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Woman_to_Gender', 'source':'Woman', 'target':'Gender', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Gender_to_shape_body', 'source':'Gender', 'target':'shape_body', 'uml_edge_type': 'composition'}

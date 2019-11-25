@@ -1,0 +1,8 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'Server', 'x':259, 'y':127, 'width':82, 'height':122, 'attrs': '_players', 'meths': '__init__|register|notifyAll'}
+{'type':'umlshape', 'id':'Spartan', 'x':121, 'y':354, 'width':80, 'height':80, 'attrs': '', 'meths': '__init__|notify'}
+{'type':'umlshape', 'id':'Covenant', 'x':372, 'y':352, 'width':90, 'height':80, 'attrs': '', 'meths': '__init__|notify'}
+{'type':'edge', 'id':'Spartan_to_Server', 'source':'Spartan', 'target':'Server', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Covenant_to_Server', 'source':'Covenant', 'target':'Server', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Covenant_to_Spartan', 'source':'Covenant', 'target':'Spartan', 'uml_edge_type': 'association'}

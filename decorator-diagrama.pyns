@@ -1,0 +1,17 @@
+# PynSource Version 1.2
+{'type':'meta', 'info1':'Lorem ipsum dolor sit amet, consectetur adipiscing elit is latin. Comments are saved.'}
+{'type':'umlshape', 'id':'Ninja', 'x':112, 'y':217, 'width':60, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'umlshape', 'id':'Village', 'x':427, 'y':181, 'width':80, 'height':90, 'attrs': '_ninja', 'meths': '__init__'}
+{'type':'umlshape', 'id':'Hidden_Leaf_Village', 'x':235, 'y':371, 'width':200, 'height':64, 'attrs': '', 'meths': 'style'}
+{'type':'umlshape', 'id':'Hidden_Sand_Village', 'x':470, 'y':372, 'width':200, 'height':64, 'attrs': '', 'meths': 'style'}
+{'type':'umlshape', 'id':'Normal_ninja', 'x':72, 'y':370, 'width':130, 'height':64, 'attrs': '', 'meths': 'style'}
+{'type':'umlshape', 'id':'main', 'x':600, 'y':179, 'width':58, 'height':96, 'attrs': 'ninja|naruto|gaara', 'meths': ''}
+{'type':'umlshape', 'id':'ABC', 'x':285, 'y':44, 'width':40, 'height':28, 'attrs': '', 'meths': ''}
+{'type':'edge', 'id':'Normal_ninja_to_Ninja', 'source':'Normal_ninja', 'target':'Ninja', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Hidden_Leaf_Village_to_Village', 'source':'Hidden_Leaf_Village', 'target':'Village', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Ninja_to_ABC', 'source':'Ninja', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Hidden_Sand_Village_to_Village', 'source':'Hidden_Sand_Village', 'target':'Village', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Village_to_Ninja', 'source':'Village', 'target':'Ninja', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Village_to_ABC', 'source':'Village', 'target':'ABC', 'uml_edge_type': 'generalisation'}
+{'type':'edge', 'id':'Ninja_to_Village', 'source':'Ninja', 'target':'Village', 'uml_edge_type': 'composition'}
+{'type':'edge', 'id':'Village_to_main', 'source':'Village', 'target':'main', 'uml_edge_type': 'generalisation'}
